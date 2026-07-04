@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import players
 
-app = FastAPI(title="FifaApp API")
+app = FastAPI(title="FifaApp API check")
 
 app.add_middleware(
     CORSMiddleware,

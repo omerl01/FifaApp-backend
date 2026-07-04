@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# Python cache & testing files
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest.ini
+tests/
+
+# Sensitive environment variables
+.env
+
+# Git files
+.git
+.gitignore
